@@ -11,7 +11,8 @@ ul{
     padding: 0;
     width: 200px;
     border: 2 solid rgb(196, 196, 196);
-    padding: 0 8px 8px 16px
+    padding: 0 8px 8px 16px;
+    text-align: center;
 }
 
 li a{
@@ -19,13 +20,14 @@ li a{
     width: 100px;
     color:rgb(170, 170, 170);
     text-decoration:none;
-    padding: 5px 50px 5px 16px
+    padding: 5px 50px 5px 16px;
+
 }
 
 li a:hover{
-    background-color: aquamarine;
-    color: rgb(2, 41, 41);
-    font-size: 18px;
+    background-color: rgb(133, 238, 203);
+    color: rgb(1, 26, 26);
+    font-size: 19px;
 }
 
 .active{
@@ -74,11 +76,10 @@ p{
 
 footer{
     color: rgb(0, 0, 0);
-    background-color:rgb(97, 100, 99);
+    background-color:rgb(63, 63, 63);
     text-align: center;
-    text-decoration:wavy;
-    padding: 0 0 ;
-    margin: 50px;
+    padding: 0 0 10px;
+    margin: 0;
 }
 footer svg{
     width: 4%;
@@ -104,4 +105,8 @@ li{
 
 .planetas{
     padding: 0 400px;
+}
+
+h1{
+    font-size:larger;
 }
